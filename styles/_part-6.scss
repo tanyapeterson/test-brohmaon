@@ -105,3 +105,40 @@
         margin-right: 30px;
     }
 }
+
+/* SCREEN SIZE 320px */
+
+
+@media screen and (max-width: 320px) {
+
+    .six-container {
+        max-width: 250px;
+        height: 400px;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 80px
+    }
+
+
+    .grand {
+        font-size: 18px;
+    }
+
+    .spain-txt {
+        font-size: 15px;
+    }
+
+    .six-container-2 {
+        height: 400px;
+        ;
+    }
+
+    .book-now-btn {
+        width: 150px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+
+
+}

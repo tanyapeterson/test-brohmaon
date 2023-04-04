@@ -91,6 +91,50 @@
         display: flex;
         align-items: flex-end;
     }
+}
+
+/* SCREEN SIZE 320px */
 
 
+@media screen and (max-width: 320px) {
+
+    .search {
+        font-size: 10px;
+    }
+
+    .image-container {
+        border: 1px solid red;
+        flex-direction: column;
+    }
+
+
+
+
+
+    .fa-magnifying-glass,
+    .fa-circle-check,
+    .fa-thumbs-up {
+        font-size: 15px;
+    }
+
+    .fourth-section {
+        height: 150px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .symbol-container {
+        height: 150px;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .shape-img {
+        height: 100px;
+        align-items: center;
+    }
+
+    .shape-img-1 {
+        max-width: 180px;
+    }
 }

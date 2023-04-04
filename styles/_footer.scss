@@ -97,3 +97,25 @@
         font-size: 20px;
     }
 }
+
+/* SCREEN SIZE 320px */
+
+
+@media screen and (max-width: 320px) {
+    .footer-logo {
+        font-size: 28px;
+    }
+
+    .footer-header {
+        height: 250px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+
+    .footer-nav {
+        align-items: center;
+    }
+
+}

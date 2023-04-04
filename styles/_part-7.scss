@@ -158,3 +158,38 @@
         margin-bottom: 50px;
     }
 }
+
+/* SCREEN SIZE 320px */
+
+
+@media screen and (max-width: 320px) {
+
+    .tourist {
+        font-size: 26px;
+    }
+
+    .fa-quote-left {
+        font-size: 25px;
+    }
+
+
+
+
+    .seven-image {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .sam {
+        margin-top: 50px;
+        margin-right: 10px;
+    }
+
+
+    .seven-info-2 {
+        margin-right: 30px;
+        height: 350px;
+        justify-content: center;
+
+    }
+}

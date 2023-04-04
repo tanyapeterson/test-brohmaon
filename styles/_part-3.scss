@@ -156,10 +156,38 @@
         justify-content: space-between;
     }
 
+
     .image-container {
         visibility: hidden;
         max-width: 220px;
         height: 200px
+    }
+
+
+    .why {
+        font-size: 25px;
+        height: 20px;
+    }
+
+    .why-txt {
+
+        font-size: 10x;
+        max-width: 320px;
+        height: 150px;
+    }
+
+
+    .explore {
+        max-width: 320px;
+        height: 100px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+
+    .explore-btn {
+        height: 50px;
+        font-size: 15px;
     }
 
 }

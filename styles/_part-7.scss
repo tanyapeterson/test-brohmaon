@@ -84,3 +84,77 @@
     color: #5474FD;
     font-size: 50px;
 }
+
+/* SCREEN SIZE 768px */
+
+
+@media screen and (max-width: 768px) {
+    .seven-header {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .seven-image {
+        margin-bottom: 20px;
+        max-width: 300px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .man-mountain {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .seven {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+
+    .sam {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FEFEFE;
+    }
+
+    .seven-info {
+        margin-bottom: 20px;
+        max-width: 700px;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+
+    }
+
+    .seven-info-2 {
+        max-width: 700px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .seven-txt {
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+        margin-right: 10px;
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+}

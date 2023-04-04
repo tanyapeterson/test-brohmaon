@@ -70,3 +70,27 @@
     color: #00A2FF;
     font-size: 30px;
 }
+
+/* SCREEN SIZE 768px */
+
+
+@media screen and (max-width: 768px) {
+
+
+    .search {
+        font-size: 25px;
+    }
+
+
+    .shape-img-1 {
+        max-width: 510px;
+    }
+
+    .shape-img {
+        height: 160px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+
+}

@@ -83,3 +83,16 @@
 .book-now-btn:hover {
     opacity: 0.6;
 }
+
+/* SCREEN SIZE 768px */
+
+
+@media screen and (max-width: 768px) {
+
+
+    .five-container-2 {
+
+        text-align: center;
+        margin-right: 30px;
+    }
+}

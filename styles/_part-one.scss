@@ -42,3 +42,63 @@ header {
     font-size: 22px;
     line-height: 26px;
 }
+
+
+.form-section {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 500px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+
+.input-container {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+
+    max-width: 500px;
+    width: 100%;
+    margin-right: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    border: none;
+    outline: none;
+
+}
+
+
+.search-btn {
+    width: 150px;
+    height: 60px;
+    background: #5474FD;
+    transition: 0.3s;
+    border: 2px solid #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.search-btn:hover {
+    opacity: 0.6;
+}

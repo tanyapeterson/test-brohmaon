@@ -4,3 +4,83 @@
     height: 700px;
     background-image: url(../Images/walking\ man.png);
 }
+
+
+.seven-header {
+    max-width: 1770px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tourist {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.seven {
+    max-width: 1280px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.seven-image {
+    max-width: 445px;
+    width: 100%;
+    height: 284px;
+}
+
+.man-mountain {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.seven-info {
+    max-width: 668px;
+    width: 100%;
+    height: 284px;
+    background: #333333
+}
+
+
+.seven-info-2 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+.sam {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FEFEFE;
+}
+
+.seven-txt {
+    max-width: 581px;
+    width: 100%;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+}
+
+.fa-quote-left {
+    color: #5474FD;
+    font-size: 50px;
+}

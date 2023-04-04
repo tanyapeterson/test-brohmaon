@@ -11,6 +11,10 @@ nav {
     gap: 40px;
 }
 
+a:hover {
+    color: black;
+}
+
 .name {
     margin-top: 25px;
 }
@@ -119,9 +123,7 @@ nav {
         display: block;
     }
 
-    .drop-menu .list:hover {
-        color: black;
-    }
+
 
 
 }

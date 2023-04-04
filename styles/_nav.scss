@@ -36,6 +36,39 @@ nav {
     cursor: pointer;
 }
 
+.fa-bars {
+    color: white;
+    font-size: 30px;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    display: none;
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+    height: 0px;
+    right: 0px;
+    width: 250px;
+    background: #5474FD;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.drop-menu.open {
+    height: 250px;
+}
+
+
+.drop-menu li {
+    padding: 12px;
+}
+
+
+
 /* SCREEN SIZE 768px */
 
 
@@ -47,4 +80,44 @@ nav {
     .bro {
         font-size: 20px;
     }
+}
+
+
+/* SCREEN SIZE 320px */
+
+
+@media screen and (max-width: 320px) {
+    nav {
+        max-width: 320px;
+        width: 100%;
+        height: 50px;
+    }
+
+    .nav-bar {
+        justify-content: flex-end;
+    }
+
+
+    .nav-bar {
+        visibility: hidden;
+    }
+
+
+
+    .nav-bar .list {
+        display: none;
+    }
+
+    .nav-bar .toggle-btn {
+        visibility: visible;
+        display: block;
+
+    }
+
+    .drop-menu {
+        visibility: visible;
+        display: block;
+    }
+
+
 }

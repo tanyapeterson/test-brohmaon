@@ -138,14 +138,28 @@
         margin-left: 10px;
     }
 
+}
 
 
+/* SCREEN SIZE 320px */
 
 
+@media screen and (max-width: 320px) {
 
+    .third-section {
+        justify-content: flex-start;
+    }
 
+    .third-info {
+        max-width: 250px;
+        height: 200px;
+        justify-content: space-between;
+    }
 
-
-
+    .image-container {
+        visibility: hidden;
+        max-width: 220px;
+        height: 200px
+    }
 
 }

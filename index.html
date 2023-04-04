@@ -68,6 +68,17 @@
                 </ul>
 
             </div>
+            <!-- HAMBURGER MENU-->
+            <div class="toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- HIDDEN UNTIL SCREEN SIZE 320PX-->
+            <div class="drop-menu">
+                <li class="list"><a href="who">WHO WE ARE</a></li>
+                <li class="list"><a href="what">WHAT WE DO</a></li>
+                <li class="list"><a href="travel">TRAVEL WITH US</a></li>
+
+            </div>
 
         </nav>
         <!-- PART 3 -->
@@ -149,69 +160,79 @@
 
         </section>
         <!-- PART 7 -->
+
         <section class="section-seven">
-            <section class="section-seven">
-                <div class="seven-header">
-                    <h2 class="tourist">What Our Tourist Say</h2>
-                </div>
-                <div class="seven">
-                    <div class="seven-image"><img class="man-mountain" src="Images/man on mountain.png"
-                            alt="man-on-mountain-img"></div>
-                    <div class="seven-info">
-                        <div class="seven-info-2">
-                            <h3 class="sam">SAM SUMON</h3>
-                            <p class="seven-txt"><i class="fa-solid fa-quote-left"></i>
-                                But I must explain to you how all this
-                                mistaken idea of account to
-                                denouncinpleasure and praising
-                                pain But I must explain to you how all this mistaken idea of account to nai denouncing
-                                pleasure
-                                and praising pain was account born and I account will give you a complete account of the
-                                system
-                                was account born and I account will give you a nai the complete account of the system
-                            </p>
-                        </div>
+            <div class="seven-header">
+                <h2 class="tourist">What Our Tourist Say</h2>
+            </div>
+            <div class="seven">
+                <div class="seven-image"><img class="man-mountain" src="Images/man on mountain.png"
+                        alt="man-on-mountain-img"></div>
+                <div class="seven-info">
+                    <div class="seven-info-2">
+                        <h3 class="sam">SAM SUMON</h3>
+                        <p class="seven-txt"><i class="fa-solid fa-quote-left"></i>
+                            But I must explain to you how all this
+                            mistaken idea of account to
+                            denouncinpleasure and praising
+                            pain But I must explain to you how all this mistaken idea of account to nai denouncing
+                            pleasure
+                            and praising pain was account born and I account will give you a complete account of the
+                            system
+                            was account born and I account will give you a nai the complete account of the system
+                        </p>
                     </div>
                 </div>
+            </div>
 
-            </section>
-            <!-- FOOTER -->
-            <footer class="bro-footer">
-                <div class="footer-header">
-                    <div>
-                        <h1 class="footer-logo">
-                            BHROMAON
-                        </h1>
-                    </div>
-
-                    <div class="footer-info">
-                        <p class="footer-text">Safe Travel Anywhere</p>
-                    </div>
+        </section>
+        <!-- FOOTER -->
+        <footer class="bro-footer">
+            <div class="footer-header">
+                <div>
+                    <h1 class="footer-logo">
+                        BHROMAON
+                    </h1>
                 </div>
-                <nav class="footer-nav">
-                    <div class="footer-bar">
-                        <ul class="list">
-                            <li><a href="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="twitter"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a href="youtube"><i class="fa-brands fa-youtube"></i></a></li>
-                            <li><a href="pinterest"><i class="fa-brands fa-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                </nav>
+
+                <div class="footer-info">
+                    <p class="footer-text">Safe Travel Anywhere</p>
+                </div>
+            </div>
+            <nav class="footer-nav">
+                <div class="footer-bar">
+                    <ul class="list">
+                        <li><a href="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="pinterest"><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
 
 
-            </footer>
-
-
-
-
-
+        </footer>
 
     </main>
 
-
     <script src="https://kit.fontawesome.com/9c959e29b5.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleBtn = document.querySelector('.toggle-btn')
+        const toggleBtnIcon = document.querySelector('.toggle-btn i')
+        const dropDownMenu = document.querySelector('.drop-menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+
+
+    </script>
 </body>
 
 </html>
